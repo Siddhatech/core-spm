@@ -1,6 +1,6 @@
 # AKCoreSwift *by Autentikar*
 
-## version 4.0.14 :rocket:
+## version 4.1.0 :rocket:
 
 # Updated
 * Support for Object-C.
@@ -11,11 +11,12 @@
 * Support for English.
 * Updated encrypt methods.
 * Updated documentation.
-* Changed FaceTecSDK version to 9.4.
-* Changed Microblink version to 5.15.1.
+* Changed FaceTecSDK version to 9.6.26.
 * Now the principal class is AKCore
 
 # New features
+* Now with "AKResult" class obtains SDK response.
+* New init flow.
 * Added new start flows via options
 * Added support of native card ID capture.
 * Added security through Keychain.

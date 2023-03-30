@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.1 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AKCoreSwift
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CommonCrypto
@@ -13,6 +13,11 @@ import SystemConfiguration
 import UIKit
 import _Concurrency
 import _StringProcessing
+public struct AKReturn {
+  public var result: Any?
+  public var instanceId: Swift.String?
+  public var instanceResponse: Any?
+}
 @_hasMissingDesignatedInitializers public class AKExternalRouter {
   public static func create() -> AKCoreSwift.AKExternal
   @objc deinit
@@ -36,21 +41,97 @@ public enum AKResultTypeModel {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class Start : ObjectiveC.NSObject {
-  public func inFlowID(flowId: Swift.String, user: AKCoreSwift.User? = nil, stage: AKCoreSwift.CoreStage = .prod, customFields: [Swift.String : Any]? = [:], files: [Swift.String : Swift.String]? = [:], isInstanceIDResponse: Swift.Bool = false) -> AKCoreSwift.InitFlow
+  public func inFlowID(flowId: Swift.String, user: AKCoreSwift.User? = nil, stage: AKCoreSwift.CoreStage = .prod, customFields: [Swift.String : Any]? = [:], files: [Swift.String : Swift.String]? = [:], responseType: AKCoreSwift.ResponseType = .result) -> AKCoreSwift.InitFlow
   public func inNextStep(nextStepToken: Swift.String, stage: AKCoreSwift.CoreStage = .prod) -> AKCoreSwift.InitFlow
   public func inExternalLink(token: Swift.String, stage: AKCoreSwift.CoreStage = .prod) -> AKCoreSwift.InitFlow
   @objc deinit
+}
+public struct AnyDecodable : Swift.Decodable {
+  public let value: Any
+  public init<T>(_ value: T?)
 }
 @usableFromInline
 internal protocol _AnyDecodable {
   var value: Any { get }
   init<T>(_ value: T?)
 }
+extension AKCoreSwift.AnyDecodable : AKCoreSwift._AnyDecodable {
+}
+extension AKCoreSwift._AnyDecodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension AKCoreSwift.AnyDecodable : Swift.Equatable {
+  public static func == (lhs: AKCoreSwift.AnyDecodable, rhs: AKCoreSwift.AnyDecodable) -> Swift.Bool
+}
+extension AKCoreSwift.AnyDecodable : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension AKCoreSwift.AnyDecodable : Swift.CustomDebugStringConvertible {
+  public var debugDescription: Swift.String {
+    get
+  }
+}
+extension AKCoreSwift.AnyDecodable : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 @_hasMissingDesignatedInitializers public class AKExternal {
   public func instanceParams(step: AKCoreSwift.AKExternalStepTypes, data: Swift.String, _ completion: @escaping (Swift.Result<Foundation.Data, AKCoreSwift.AutentikarError>) -> ())
   public func instancePreProcess(step: AKCoreSwift.AKExternalStepTypes, data: Any? = nil, completion: @escaping (Swift.Result<Swift.String, AKCoreSwift.AutentikarError>) -> ())
   public func instanceProccess(step: AKCoreSwift.AKExternalStepTypes, data: Swift.String, _ completion: @escaping (Swift.Result<Foundation.Data, AKCoreSwift.AutentikarError>) -> ())
   @objc deinit
+}
+public struct AnyCodable : Swift.Codable {
+  public let value: Any
+  public init<T>(_ value: T?)
+}
+extension AKCoreSwift.AnyCodable : AKCoreSwift._AnyEncodable, AKCoreSwift._AnyDecodable {
+}
+extension AKCoreSwift.AnyCodable : Swift.Equatable {
+  public static func == (lhs: AKCoreSwift.AnyCodable, rhs: AKCoreSwift.AnyCodable) -> Swift.Bool
+}
+extension AKCoreSwift.AnyCodable : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension AKCoreSwift.AnyCodable : Swift.CustomDebugStringConvertible {
+  public var debugDescription: Swift.String {
+    get
+  }
+}
+extension AKCoreSwift.AnyCodable : Swift.ExpressibleByNilLiteral {
+}
+extension AKCoreSwift.AnyCodable : Swift.ExpressibleByBooleanLiteral {
+  public typealias BooleanLiteralType = Swift.Bool
+}
+extension AKCoreSwift.AnyCodable : Swift.ExpressibleByIntegerLiteral {
+  public typealias IntegerLiteralType = Swift.Int
+}
+extension AKCoreSwift.AnyCodable : Swift.ExpressibleByFloatLiteral {
+  public typealias FloatLiteralType = Swift.Double
+}
+extension AKCoreSwift.AnyCodable : Swift.ExpressibleByStringLiteral {
+  public typealias ExtendedGraphemeClusterLiteralType = Swift.String
+  public typealias StringLiteralType = Swift.String
+  public typealias UnicodeScalarLiteralType = Swift.String
+}
+extension AKCoreSwift.AnyCodable : Swift.ExpressibleByArrayLiteral {
+  public typealias ArrayLiteralElement = Any
+}
+extension AKCoreSwift.AnyCodable : Swift.ExpressibleByDictionaryLiteral {
+  public typealias Key = Swift.AnyHashable
+  public typealias Value = Any
+}
+extension AKCoreSwift.AnyCodable : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public enum AKExternalStepTypes {
   case faceCapture
@@ -134,10 +215,74 @@ public struct User {
 @objc @_hasMissingDesignatedInitializers @objcMembers public class InitFlow : ObjectiveC.NSObject {
   @objc deinit
 }
+public struct AnyEncodable : Swift.Encodable {
+  public let value: Any
+  public init<T>(_ value: T?)
+}
 @usableFromInline
 internal protocol _AnyEncodable {
   var value: Any { get }
   init<T>(_ value: T?)
+}
+extension AKCoreSwift.AnyEncodable : AKCoreSwift._AnyEncodable {
+}
+extension AKCoreSwift._AnyEncodable {
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+extension AKCoreSwift.AnyEncodable : Swift.Equatable {
+  public static func == (lhs: AKCoreSwift.AnyEncodable, rhs: AKCoreSwift.AnyEncodable) -> Swift.Bool
+}
+extension AKCoreSwift.AnyEncodable : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension AKCoreSwift.AnyEncodable : Swift.CustomDebugStringConvertible {
+  public var debugDescription: Swift.String {
+    get
+  }
+}
+extension AKCoreSwift.AnyEncodable : Swift.ExpressibleByNilLiteral {
+}
+extension AKCoreSwift.AnyEncodable : Swift.ExpressibleByBooleanLiteral {
+  public typealias BooleanLiteralType = Swift.Bool
+}
+extension AKCoreSwift.AnyEncodable : Swift.ExpressibleByIntegerLiteral {
+  public typealias IntegerLiteralType = Swift.Int
+}
+extension AKCoreSwift.AnyEncodable : Swift.ExpressibleByFloatLiteral {
+  public typealias FloatLiteralType = Swift.Double
+}
+extension AKCoreSwift.AnyEncodable : Swift.ExpressibleByStringLiteral {
+  public typealias ExtendedGraphemeClusterLiteralType = Swift.String
+  public typealias StringLiteralType = Swift.String
+  public typealias UnicodeScalarLiteralType = Swift.String
+}
+extension AKCoreSwift.AnyEncodable : Swift.ExpressibleByStringInterpolation {
+  public typealias StringInterpolation = Swift.DefaultStringInterpolation
+}
+extension AKCoreSwift.AnyEncodable : Swift.ExpressibleByArrayLiteral {
+  public typealias ArrayLiteralElement = Any
+}
+extension AKCoreSwift.AnyEncodable : Swift.ExpressibleByDictionaryLiteral {
+  public typealias Key = Swift.AnyHashable
+  public typealias Value = Any
+}
+extension AKCoreSwift._AnyEncodable {
+  public init(nilLiteral _: ())
+  public init(booleanLiteral value: Swift.Bool)
+  public init(integerLiteral value: Swift.Int)
+  public init(floatLiteral value: Swift.Double)
+  public init(extendedGraphemeClusterLiteral value: Swift.String)
+  public init(stringLiteral value: Swift.String)
+  public init(arrayLiteral elements: Any...)
+  public init(dictionaryLiteral elements: (Swift.AnyHashable, Any)...)
+}
+extension AKCoreSwift.AnyEncodable : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public struct AutentikarError : Swift.Error {
   public var event: AKCoreSwift.AKEvents
@@ -166,6 +311,17 @@ open class KeychainSwift {
   @discardableResult
   open func clear() -> Swift.Bool
   @objc deinit
+}
+public enum ResponseType {
+  case result
+  case instance_id
+  case instance_response
+  case full
+  public static func == (a: AKCoreSwift.ResponseType, b: AKCoreSwift.ResponseType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class AKBaseCapture : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) public var isSuccess: Swift.Bool
@@ -314,13 +470,12 @@ extension UIKit.UIImage {
 }
 public protocol AKBaseCaptureDelegate : AnyObject {
   func success(capture: AKCoreSwift.AKBaseCaptureViewController, response: Swift.String?)
-  func result(capture: AKCoreSwift.AKBaseCaptureViewController, response: Swift.String?)
   func failed(capture: AKCoreSwift.AKBaseCaptureViewController, error: AKCoreSwift.AutentikarError?)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class AKBaseCaptureViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) open var isSuccess: Swift.Bool
   @_Concurrency.MainActor(unsafe) open var recognizerView: UIKit.UIViewController?
-  @_Concurrency.MainActor(unsafe) weak public var delegate: AKCoreSwift.AKBaseCaptureDelegate?
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any AKCoreSwift.AKBaseCaptureDelegate)?
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
   @_Concurrency.MainActor(unsafe) open func success()
   @_Concurrency.MainActor(unsafe) open func cancel(_ error: AKCoreSwift.AutentikarError?)
@@ -335,7 +490,7 @@ public protocol AKBaseCaptureDelegate : AnyObject {
   @objc public static func basicAuth(user: Swift.String, password: Swift.String)
   @objc public static func setCustomization(customization: AKCoreSwift.AKCoreCustomization)
   @objc public static func start(_ viewController: UIKit.UIViewController, options: AKCoreSwift.InitFlow)
-  @objc public static func register(for stepProtocol: AKCoreSwift.AKStepSharedRouterProtocol)
+  @objc public static func register(for stepProtocol: any AKCoreSwift.AKStepSharedRouterProtocol)
   @objc deinit
 }
 extension AKCoreSwift.AKExternalStepTypes : Swift.Equatable {}
@@ -344,5 +499,7 @@ extension AKCoreSwift.AKStepType : Swift.Equatable {}
 extension AKCoreSwift.AKStepType : Swift.Hashable {}
 extension AKCoreSwift.CoreStage : Swift.Equatable {}
 extension AKCoreSwift.CoreStage : Swift.Hashable {}
+extension AKCoreSwift.ResponseType : Swift.Equatable {}
+extension AKCoreSwift.ResponseType : Swift.Hashable {}
 extension AKCoreSwift.KeychainSwiftAccessOptions : Swift.Equatable {}
 extension AKCoreSwift.KeychainSwiftAccessOptions : Swift.Hashable {}
