@@ -1,6 +1,6 @@
 # AKCoreSwift *by Autentikar*
 
-## version 4.1.1 :rocket:
+## version 4.1.2 :rocket:
 
 # Updated
 * Support for Object-C.
