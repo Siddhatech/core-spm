@@ -37,6 +37,7 @@ public enum AKResultTypeModel {
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class AKCoreOptions : ObjectiveC.NSObject {
   public static let start: AKCoreSwift.Start
+  public static var account: Swift.String
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class Start : ObjectiveC.NSObject {
@@ -136,6 +137,13 @@ public enum AKExternalStepTypes {
   case faceCapture
   case cardCapture
   case cardCaptureAK
+  case simpleCardCapture
+  case documentVerifier
+  public typealias RawValue = Swift.String
+  public var rawValue: AKCoreSwift.AKExternalStepTypes.RawValue {
+    get
+  }
+  public init?(rawValue: AKCoreSwift.AKExternalStepTypes.RawValue)
   public static func == (a: AKCoreSwift.AKExternalStepTypes, b: AKCoreSwift.AKExternalStepTypes) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -146,6 +154,8 @@ public enum AKExternalStepTypes {
   case faceCapture
   case cardCapture
   case cardCaptureAK
+  case simpleCardCapture
+  case documentVerifier
   case biometricAuthiPhoneDevice
   case CARD_IMAGES_CAPTURE
   case CARD_NFC_CAPTURE

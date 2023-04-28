@@ -1258,6 +1258,106 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "account",
+            "printedName": "account",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11AKCoreSwift0A7OptionsC7accountSSvpZ",
+            "mangledName": "$s11AKCoreSwift0A7OptionsC7accountSSvpZ",
+            "moduleName": "AKCoreSwift",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AKCoreSwift0A7OptionsC7accountSSvgZ",
+                "mangledName": "$s11AKCoreSwift0A7OptionsC7accountSSvgZ",
+                "moduleName": "AKCoreSwift",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AKCoreSwift0A7OptionsC7accountSSvsZ",
+                "mangledName": "$s11AKCoreSwift0A7OptionsC7accountSSvsZ",
+                "moduleName": "AKCoreSwift",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AKCoreSwift0A7OptionsC7accountSSvMZ",
+                "mangledName": "$s11AKCoreSwift0A7OptionsC7accountSSvMZ",
+                "moduleName": "AKCoreSwift",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -3075,6 +3175,155 @@
             "moduleName": "AKCoreSwift"
           },
           {
+            "kind": "Var",
+            "name": "simpleCardCapture",
+            "printedName": "simpleCardCapture",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AKCoreSwift.AKExternalStepTypes.Type) -> AKCoreSwift.AKExternalStepTypes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AKExternalStepTypes",
+                    "printedName": "AKCoreSwift.AKExternalStepTypes",
+                    "usr": "s:11AKCoreSwift19AKExternalStepTypesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AKCoreSwift.AKExternalStepTypes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AKExternalStepTypes",
+                        "printedName": "AKCoreSwift.AKExternalStepTypes",
+                        "usr": "s:11AKCoreSwift19AKExternalStepTypesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11AKCoreSwift19AKExternalStepTypesO17simpleCardCaptureyA2CmF",
+            "mangledName": "$s11AKCoreSwift19AKExternalStepTypesO17simpleCardCaptureyA2CmF",
+            "moduleName": "AKCoreSwift"
+          },
+          {
+            "kind": "Var",
+            "name": "documentVerifier",
+            "printedName": "documentVerifier",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AKCoreSwift.AKExternalStepTypes.Type) -> AKCoreSwift.AKExternalStepTypes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AKExternalStepTypes",
+                    "printedName": "AKCoreSwift.AKExternalStepTypes",
+                    "usr": "s:11AKCoreSwift19AKExternalStepTypesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AKCoreSwift.AKExternalStepTypes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AKExternalStepTypes",
+                        "printedName": "AKCoreSwift.AKExternalStepTypes",
+                        "usr": "s:11AKCoreSwift19AKExternalStepTypesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11AKCoreSwift19AKExternalStepTypesO16documentVerifieryA2CmF",
+            "mangledName": "$s11AKCoreSwift19AKExternalStepTypesO16documentVerifieryA2CmF",
+            "moduleName": "AKCoreSwift"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11AKCoreSwift19AKExternalStepTypesO8rawValueSSvp",
+            "mangledName": "$s11AKCoreSwift19AKExternalStepTypesO8rawValueSSvp",
+            "moduleName": "AKCoreSwift",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AKCoreSwift19AKExternalStepTypesO8rawValueSSvg",
+                "mangledName": "$s11AKCoreSwift19AKExternalStepTypesO8rawValueSSvg",
+                "moduleName": "AKCoreSwift",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AKCoreSwift.AKExternalStepTypes?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AKExternalStepTypes",
+                    "printedName": "AKCoreSwift.AKExternalStepTypes",
+                    "usr": "s:11AKCoreSwift19AKExternalStepTypesO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11AKCoreSwift19AKExternalStepTypesO8rawValueACSgSS_tcfc",
+            "mangledName": "$s11AKCoreSwift19AKExternalStepTypesO8rawValueACSgSS_tcfc",
+            "moduleName": "AKCoreSwift",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
@@ -3355,6 +3604,88 @@
           },
           {
             "kind": "Var",
+            "name": "simpleCardCapture",
+            "printedName": "simpleCardCapture",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AKCoreSwift.AKStepType.Type) -> AKCoreSwift.AKStepType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AKStepType",
+                    "printedName": "AKCoreSwift.AKStepType",
+                    "usr": "c:@M@AKCoreSwift@E@AKStepType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AKCoreSwift.AKStepType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AKStepType",
+                        "printedName": "AKCoreSwift.AKStepType",
+                        "usr": "c:@M@AKCoreSwift@E@AKStepType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AKCoreSwift@E@AKStepType@AKStepTypeSimpleCardCapture",
+            "mangledName": "$s11AKCoreSwift10AKStepTypeO17simpleCardCaptureyA2CmF",
+            "moduleName": "AKCoreSwift",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "documentVerifier",
+            "printedName": "documentVerifier",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AKCoreSwift.AKStepType.Type) -> AKCoreSwift.AKStepType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AKStepType",
+                    "printedName": "AKCoreSwift.AKStepType",
+                    "usr": "c:@M@AKCoreSwift@E@AKStepType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AKCoreSwift.AKStepType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AKStepType",
+                        "printedName": "AKCoreSwift.AKStepType",
+                        "usr": "c:@M@AKCoreSwift@E@AKStepType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AKCoreSwift@E@AKStepType@AKStepTypeDocumentVerifier",
+            "mangledName": "$s11AKCoreSwift10AKStepTypeO16documentVerifieryA2CmF",
+            "moduleName": "AKCoreSwift",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
             "name": "biometricAuthiPhoneDevice",
             "printedName": "biometricAuthiPhoneDevice",
             "children": [
@@ -3392,7 +3723,7 @@
             "declAttributes": [
               "ObjC"
             ],
-            "fixedbinaryorder": 3
+            "fixedbinaryorder": 5
           },
           {
             "kind": "Var",
@@ -3433,7 +3764,7 @@
             "declAttributes": [
               "ObjC"
             ],
-            "fixedbinaryorder": 4
+            "fixedbinaryorder": 6
           },
           {
             "kind": "Var",
@@ -3474,7 +3805,7 @@
             "declAttributes": [
               "ObjC"
             ],
-            "fixedbinaryorder": 5
+            "fixedbinaryorder": 7
           },
           {
             "kind": "Var",
@@ -3515,7 +3846,7 @@
             "declAttributes": [
               "ObjC"
             ],
-            "fixedbinaryorder": 6
+            "fixedbinaryorder": 8
           },
           {
             "kind": "Var",
@@ -3556,7 +3887,7 @@
             "declAttributes": [
               "ObjC"
             ],
-            "fixedbinaryorder": 7
+            "fixedbinaryorder": 9
           },
           {
             "kind": "Var",
@@ -3597,7 +3928,7 @@
             "declAttributes": [
               "ObjC"
             ],
-            "fixedbinaryorder": 8
+            "fixedbinaryorder": 10
           },
           {
             "kind": "Var",
@@ -3638,7 +3969,7 @@
             "declAttributes": [
               "ObjC"
             ],
-            "fixedbinaryorder": 9
+            "fixedbinaryorder": 11
           },
           {
             "kind": "Var",
@@ -3679,7 +4010,7 @@
             "declAttributes": [
               "ObjC"
             ],
-            "fixedbinaryorder": 10
+            "fixedbinaryorder": 12
           },
           {
             "kind": "Var",
@@ -3720,7 +4051,7 @@
             "declAttributes": [
               "ObjC"
             ],
-            "fixedbinaryorder": 11
+            "fixedbinaryorder": 13
           },
           {
             "kind": "Var",
@@ -12206,15 +12537,22 @@
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Init\/AKCoreOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 421,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Init\/AKCoreOptions.swift",
       "kind": "Dictionary",
-      "offset": 648,
+      "offset": 686,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Init\/AKCoreOptions.swift",
       "kind": "Dictionary",
-      "offset": 679,
+      "offset": 717,
       "length": 3,
       "value": "[]"
     },
@@ -12373,6 +12711,76 @@
       "value": "\")\""
     },
     {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKExternalStepTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 470,
+      "length": 14,
+      "value": "\"FACE_CAPTURE\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKExternalStepTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 531,
+      "length": 14,
+      "value": "\"CARD_CAPTURE\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKExternalStepTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 594,
+      "length": 17,
+      "value": "\"CARD_CAPTURE_AK\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKExternalStepTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 664,
+      "length": 21,
+      "value": "\"SIMPLE_CARD_CAPTURE\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKExternalStepTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 737,
+      "length": 19,
+      "value": "\"DOCUMENT_VERIFIER\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKExternalStepTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 856,
+      "length": 14,
+      "value": "\"FACE_CAPTURE\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKExternalStepTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 917,
+      "length": 14,
+      "value": "\"CARD_CAPTURE\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKExternalStepTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 978,
+      "length": 17,
+      "value": "\"CARD_CAPTURE_AK\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKExternalStepTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 1044,
+      "length": 21,
+      "value": "\"SIMPLE_CARD_CAPTURE\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKExternalStepTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 1118,
+      "length": 19,
+      "value": "\"DOCUMENT_VERIFIER\""
+    },
+    {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "IntegerLiteral",
       "offset": 450,
@@ -12390,223 +12798,265 @@
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "IntegerLiteral",
       "offset": 494,
-      "length": 25,
+      "length": 17,
       "value": "3"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "IntegerLiteral",
-      "offset": 529,
-      "length": 19,
+      "offset": 521,
+      "length": 16,
       "value": "4"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "IntegerLiteral",
-      "offset": 558,
-      "length": 16,
+      "offset": 547,
+      "length": 25,
       "value": "5"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "IntegerLiteral",
-      "offset": 584,
-      "length": 11,
+      "offset": 582,
+      "length": 19,
       "value": "6"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "IntegerLiteral",
-      "offset": 605,
-      "length": 11,
+      "offset": 611,
+      "length": 16,
       "value": "7"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "IntegerLiteral",
-      "offset": 626,
-      "length": 13,
+      "offset": 637,
+      "length": 11,
       "value": "8"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "IntegerLiteral",
-      "offset": 649,
-      "length": 12,
+      "offset": 658,
+      "length": 11,
       "value": "9"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "IntegerLiteral",
-      "offset": 671,
+      "offset": 679,
       "length": 13,
       "value": "10"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "IntegerLiteral",
-      "offset": 694,
-      "length": 6,
+      "offset": 702,
+      "length": 12,
       "value": "11"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 724,
+      "length": 13,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 747,
+      "length": 6,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "StringLiteral",
-      "offset": 854,
+      "offset": 907,
       "length": 14,
       "value": "\"FACE_CAPTURE\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "StringLiteral",
-      "offset": 915,
+      "offset": 968,
       "length": 14,
       "value": "\"CARD_CAPTURE\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "StringLiteral",
-      "offset": 990,
+      "offset": 1035,
+      "length": 21,
+      "value": "\"SIMPLE_CARD_CAPTURE\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
+      "kind": "StringLiteral",
+      "offset": 1108,
+      "length": 19,
+      "value": "\"DOCUMENT_VERIFIER\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
+      "kind": "StringLiteral",
+      "offset": 1188,
       "length": 31,
       "value": "\"BIOMECTRIC_AUTH_MOBILE_DEVICE\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "StringLiteral",
-      "offset": 1076,
+      "offset": 1274,
       "length": 21,
       "value": "\"CARD_IMAGES_CAPTURE\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "StringLiteral",
-      "offset": 1149,
+      "offset": 1347,
       "length": 18,
       "value": "\"CARD_NFC_CAPTURE\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "StringLiteral",
-      "offset": 1216,
+      "offset": 1414,
       "length": 17,
       "value": "\"CARD_CAPTURE_AK\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "StringLiteral",
-      "offset": 1280,
+      "offset": 1478,
       "length": 13,
       "value": "\"NFC_CAPTURE\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "StringLiteral",
-      "offset": 1340,
+      "offset": 1538,
       "length": 13,
       "value": "\"CEL_CAPTURE\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "StringLiteral",
-      "offset": 1402,
+      "offset": 1600,
       "length": 15,
       "value": "\"EMAIL_CAPTURE\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "StringLiteral",
-      "offset": 1465,
+      "offset": 1663,
       "length": 14,
       "value": "\"REQUIRE_PUSH\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "StringLiteral",
-      "offset": 1528,
+      "offset": 1726,
       "length": 15,
       "value": "\"TOKEN_CAPTURE\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "StringLiteral",
-      "offset": 1585,
+      "offset": 1783,
       "length": 8,
       "value": "\"RESULT\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "StringLiteral",
-      "offset": 1693,
+      "offset": 1891,
       "length": 14,
       "value": "\"FACE_CAPTURE\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "StringLiteral",
-      "offset": 1754,
+      "offset": 1952,
       "length": 14,
       "value": "\"CARD_CAPTURE\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "StringLiteral",
-      "offset": 1815,
+      "offset": 2013,
+      "length": 21,
+      "value": "\"SIMPLE_CARD_CAPTURE\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
+      "kind": "StringLiteral",
+      "offset": 2087,
+      "length": 19,
+      "value": "\"DOCUMENT_VERIFIER\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
+      "kind": "StringLiteral",
+      "offset": 2158,
       "length": 21,
       "value": "\"CARD_IMAGES_CAPTURE\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "StringLiteral",
-      "offset": 1891,
+      "offset": 2234,
       "length": 18,
       "value": "\"CARD_NFC_CAPTURE\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "StringLiteral",
-      "offset": 1961,
+      "offset": 2304,
       "length": 17,
       "value": "\"CARD_CAPTURE_AK\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "StringLiteral",
-      "offset": 2027,
+      "offset": 2370,
       "length": 13,
       "value": "\"NFC_CAPTURE\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "StringLiteral",
-      "offset": 2087,
+      "offset": 2430,
       "length": 13,
       "value": "\"CEL_CAPTURE\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "StringLiteral",
-      "offset": 2147,
+      "offset": 2490,
       "length": 15,
       "value": "\"EMAIL_CAPTURE\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "StringLiteral",
-      "offset": 2211,
+      "offset": 2554,
       "length": 14,
       "value": "\"REQUIRE_PUSH\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "StringLiteral",
-      "offset": 2273,
+      "offset": 2616,
       "length": 15,
       "value": "\"TOKEN_CAPTURE\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/AKStepType.swift",
       "kind": "StringLiteral",
-      "offset": 2337,
+      "offset": 2680,
       "length": 8,
       "value": "\"RESULT\""
     },
@@ -12663,13 +13113,13 @@
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/CoreStage.swift",
       "kind": "StringLiteral",
       "offset": 882,
-      "length": 33,
-      "value": "\"https:\/\/apiv3.qa.autentikar.com\""
+      "length": 31,
+      "value": "\"https:\/\/api.qa.autentikar.com\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/CoreStage.swift",
       "kind": "StringLiteral",
-      "offset": 955,
+      "offset": 953,
       "length": 28,
       "value": "\"https:\/\/api.autentikar.com\""
     },
@@ -14258,203 +14708,259 @@
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
       "kind": "StringLiteral",
-      "offset": 627,
+      "offset": 636,
       "length": 24,
       "value": "\"BACKEND HOST is EMPTY!\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
       "kind": "StringLiteral",
-      "offset": 718,
-      "length": 21,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
-      "kind": "StringLiteral",
-      "offset": 726,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
-      "kind": "StringLiteral",
-      "offset": 738,
+      "offset": 703,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
       "kind": "StringLiteral",
-      "offset": 961,
+      "offset": 781,
+      "length": 29,
+      "value": "\"\/s\/\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
+      "kind": "StringLiteral",
+      "offset": 809,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
+      "kind": "StringLiteral",
+      "offset": 876,
+      "length": 31,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
+      "kind": "StringLiteral",
+      "offset": 884,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
+      "kind": "StringLiteral",
+      "offset": 894,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
+      "kind": "StringLiteral",
+      "offset": 906,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
+      "kind": "StringLiteral",
+      "offset": 1129,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1101,
+      "offset": 1269,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
       "kind": "StringLiteral",
-      "offset": 1172,
+      "offset": 1340,
       "length": 15,
       "value": "\"ak-user-agent\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
       "kind": "StringLiteral",
-      "offset": 1379,
+      "offset": 1547,
       "length": 21,
       "value": "\"Inicializate start!\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
       "kind": "StringLiteral",
-      "offset": 1467,
-      "length": 21,
+      "offset": 1611,
+      "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
       "kind": "StringLiteral",
-      "offset": 1475,
+      "offset": 1689,
+      "length": 29,
+      "value": "\"\/s\/\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
+      "kind": "StringLiteral",
+      "offset": 1717,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
       "kind": "StringLiteral",
-      "offset": 1487,
+      "offset": 1784,
+      "length": 31,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
+      "kind": "StringLiteral",
+      "offset": 1792,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
+      "kind": "StringLiteral",
+      "offset": 1802,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
+      "kind": "StringLiteral",
+      "offset": 1814,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
       "kind": "StringLiteral",
-      "offset": 1710,
+      "offset": 2037,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1914,
+      "offset": 2241,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
       "kind": "StringLiteral",
-      "offset": 1985,
+      "offset": 2312,
       "length": 15,
       "value": "\"ak-user-agent\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
       "kind": "StringLiteral",
-      "offset": 2268,
+      "offset": 2595,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
       "kind": "StringLiteral",
-      "offset": 2274,
+      "offset": 2601,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
       "kind": "StringLiteral",
-      "offset": 2347,
+      "offset": 2674,
       "length": 9,
       "value": "\"NoToken\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
       "kind": "StringLiteral",
-      "offset": 2391,
+      "offset": 2718,
       "length": 17,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
       "kind": "StringLiteral",
-      "offset": 2407,
+      "offset": 2734,
       "length": 24,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
       "kind": "StringLiteral",
-      "offset": 2430,
+      "offset": 2757,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
       "kind": "StringLiteral",
-      "offset": 2481,
+      "offset": 2808,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
       "kind": "StringLiteral",
-      "offset": 2521,
+      "offset": 2848,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
       "kind": "StringLiteral",
-      "offset": 2775,
+      "offset": 3102,
       "length": 16,
       "value": "\"No credentials\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
       "kind": "StringLiteral",
-      "offset": 2852,
+      "offset": 3179,
       "length": 7,
       "value": "\"%@:%@\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
       "kind": "StringLiteral",
-      "offset": 2997,
+      "offset": 3324,
       "length": 20,
       "value": "\"Basic \""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
       "kind": "StringLiteral",
-      "offset": 3016,
+      "offset": 3343,
       "length": 24,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
       "kind": "StringLiteral",
-      "offset": 3039,
+      "offset": 3366,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
       "kind": "StringLiteral",
-      "offset": 3090,
+      "offset": 3417,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Network\/URLService.swift",
       "kind": "StringLiteral",
-      "offset": 3130,
+      "offset": 3457,
       "length": 14,
       "value": "\"Content-Type\""
     },
@@ -15546,14 +16052,14 @@
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Domain\/External\/AKExternalPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 8905,
+      "offset": 8945,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Domain\/External\/AKExternalPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 9596,
+      "offset": 9636,
       "length": 1,
       "value": "1"
     },
