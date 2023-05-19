@@ -319,6 +319,7 @@ SWIFT_CLASS("_TtC11AKCoreSwift6AKCore")
 
 @class UIImage;
 @class UIColor;
+@class UIFont;
 @class LoadingScreen;
 
 SWIFT_CLASS("_TtC11AKCoreSwift19AKCoreCustomization")
@@ -331,6 +332,7 @@ SWIFT_CLASS("_TtC11AKCoreSwift19AKCoreCustomization")
 @property (nonatomic, strong) UIColor * _Nonnull backgroundColor;
 @property (nonatomic, strong) UIColor * _Nonnull textColor;
 @property (nonatomic, strong) UIColor * _Nonnull activityViewColor;
+@property (nonatomic, strong) UIFont * _Nullable customFont;
 @property (nonatomic, strong) LoadingScreen * _Nonnull loadingScreenCustomization;
 @end
 

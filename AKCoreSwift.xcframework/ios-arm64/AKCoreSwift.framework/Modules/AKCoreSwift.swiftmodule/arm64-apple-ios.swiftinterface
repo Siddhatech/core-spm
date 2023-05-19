@@ -373,6 +373,10 @@ public enum ResponseType {
     @objc get
     @objc set
   }
+  @objc public var customFont: UIKit.UIFont? {
+    @objc get
+    @objc set
+  }
   @objc public var loadingScreenCustomization: AKCoreSwift.AKCoreCustomization.LoadingScreen {
     @objc get
     @objc set
@@ -404,6 +408,10 @@ public enum ResponseType {
       @objc set
     }
     @objc public var activityViewColor: UIKit.UIColor {
+      @objc get
+      @objc set
+    }
+    @objc public var customFont: UIKit.UIFont? {
       @objc get
       @objc set
     }

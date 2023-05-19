@@ -8583,6 +8583,118 @@
           },
           {
             "kind": "Var",
+            "name": "customFont",
+            "printedName": "customFont",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIFont?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AKCoreSwift@objc(cs)AKCoreCustomization(py)customFont",
+            "mangledName": "$s11AKCoreSwift0A13CustomizationC10customFontSo6UIFontCSgvp",
+            "moduleName": "AKCoreSwift",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIFont?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKCoreSwift@objc(cs)AKCoreCustomization(im)customFont",
+                "mangledName": "$s11AKCoreSwift0A13CustomizationC10customFontSo6UIFontCSgvg",
+                "moduleName": "AKCoreSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIFont?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKCoreSwift@objc(cs)AKCoreCustomization(im)setCustomFont:",
+                "mangledName": "$s11AKCoreSwift0A13CustomizationC10customFontSo6UIFontCSgvs",
+                "moduleName": "AKCoreSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AKCoreSwift0A13CustomizationC10customFontSo6UIFontCSgvM",
+                "mangledName": "$s11AKCoreSwift0A13CustomizationC10customFontSo6UIFontCSgvM",
+                "moduleName": "AKCoreSwift",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "loadingScreenCustomization",
             "printedName": "loadingScreenCustomization",
             "children": [
@@ -9310,6 +9422,118 @@
                     "declKind": "Accessor",
                     "usr": "s:11AKCoreSwift0A13CustomizationC13LoadingScreenC17activityViewColorSo7UIColorCvM",
                     "mangledName": "$s11AKCoreSwift0A13CustomizationC13LoadingScreenC17activityViewColorSo7UIColorCvM",
+                    "moduleName": "AKCoreSwift",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "customFont",
+                "printedName": "customFont",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIFont?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11AKCoreSwift0A13CustomizationC13LoadingScreenC10customFontSo6UIFontCSgvp",
+                "mangledName": "$s11AKCoreSwift0A13CustomizationC13LoadingScreenC10customFontSo6UIFontCSgvp",
+                "moduleName": "AKCoreSwift",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "UIKit.UIFont?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIFont",
+                            "printedName": "UIKit.UIFont",
+                            "usr": "c:objc(cs)UIFont"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11AKCoreSwift0A13CustomizationC13LoadingScreenC10customFontSo6UIFontCSgvg",
+                    "mangledName": "$s11AKCoreSwift0A13CustomizationC13LoadingScreenC10customFontSo6UIFontCSgvg",
+                    "moduleName": "AKCoreSwift",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "UIKit.UIFont?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIFont",
+                            "printedName": "UIKit.UIFont",
+                            "usr": "c:objc(cs)UIFont"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11AKCoreSwift0A13CustomizationC13LoadingScreenC10customFontSo6UIFontCSgvs",
+                    "mangledName": "$s11AKCoreSwift0A13CustomizationC13LoadingScreenC10customFontSo6UIFontCSgvs",
+                    "moduleName": "AKCoreSwift",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11AKCoreSwift0A13CustomizationC13LoadingScreenC10customFontSo6UIFontCSgvM",
+                    "mangledName": "$s11AKCoreSwift0A13CustomizationC13LoadingScreenC10customFontSo6UIFontCSgvM",
                     "moduleName": "AKCoreSwift",
                     "implicit": true,
                     "accessorKind": "_modify"
@@ -15233,35 +15457,35 @@
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Custom\/AKCoreCustomization.swift",
       "kind": "BooleanLiteral",
-      "offset": 2513,
+      "offset": 2733,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Custom\/AKCoreCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 2778,
+      "offset": 2998,
       "length": 26,
       "value": "\"ak_core_autentikar_light\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Custom\/AKCoreCustomization.swift",
       "kind": "BooleanLiteral",
-      "offset": 3098,
+      "offset": 3318,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Custom\/AKCoreCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 3702,
+      "offset": 3922,
       "length": 9,
       "value": "\"#1A273B\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Custom\/AKCoreCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 4277,
+      "offset": 4497,
       "length": 9,
       "value": "\"#FE5000\""
     },
@@ -15387,14 +15611,14 @@
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Elements\/ProgressiveViewScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 2767,
+      "offset": 2881,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Elements\/ProgressiveViewScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 3226,
+      "offset": 3340,
       "length": 3,
       "value": "-50"
     },
@@ -15828,224 +16052,224 @@
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2263,
+      "offset": 2377,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2753,
+      "offset": 2867,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3197,
+      "offset": 3311,
       "length": 3,
       "value": "-50"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3898,
+      "offset": 4012,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4870,
+      "offset": 4984,
       "length": 4,
       "value": "\"OK\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5265,
+      "offset": 5379,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5313,
+      "offset": 5427,
       "length": 19,
       "value": "\"UIEndVerification\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5655,
+      "offset": 5769,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5843,
+      "offset": 5957,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5993,
+      "offset": 6107,
       "length": 19,
       "value": "\"UIEndVerification\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6353,
+      "offset": 6467,
       "length": 19,
       "value": "\"UIEndVerification\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 6944,
+      "offset": 7058,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7529,
+      "offset": 7643,
       "length": 59,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7532,
+      "offset": 7646,
       "length": 18,
       "value": "\"UIProcessingData\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7561,
+      "offset": 7675,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7564,
+      "offset": 7678,
       "length": 12,
       "value": "\"UINextFLow\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7587,
+      "offset": 7701,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7930,
+      "offset": 8044,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8070,
+      "offset": 8184,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8197,
+      "offset": 8311,
       "length": 57,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8200,
+      "offset": 8314,
       "length": 18,
       "value": "\"UIProcessingData\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8229,
+      "offset": 8343,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8232,
+      "offset": 8346,
       "length": 10,
       "value": "\"UIResult\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8253,
+      "offset": 8367,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8330,
+      "offset": 8444,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8878,
+      "offset": 8992,
       "length": 57,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8881,
+      "offset": 8995,
       "length": 18,
       "value": "\"UIProcessingData\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8910,
+      "offset": 9024,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8913,
+      "offset": 9027,
       "length": 10,
       "value": "\"UIResult\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8934,
+      "offset": 9048,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8991,
+      "offset": 9105,
       "length": 4,
       "value": "\"{}\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "Array",
-      "offset": 9128,
+      "offset": 9242,
       "length": 2,
       "value": "[]"
     },

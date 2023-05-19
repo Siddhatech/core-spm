@@ -1,7 +1,6 @@
 # AKCoreSwift *by Autentikar*
 
-## version 4.1.4 :rocket:
+## version 4.1.5 :rocket:
 
 # Added
-* new SIMPLE_CARD_CAPTURE and DOCUMENT_VERIFIER steps
-* set account in options.
+* new customFont for views.
