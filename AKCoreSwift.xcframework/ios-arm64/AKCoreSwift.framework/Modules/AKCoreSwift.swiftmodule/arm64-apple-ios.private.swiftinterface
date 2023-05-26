@@ -381,6 +381,10 @@ public enum ResponseType {
     @objc get
     @objc set
   }
+  @objc public var bundleForLocalizableString: Foundation.Bundle? {
+    @objc get
+    @objc set
+  }
   @objc @_inheritsConvenienceInitializers public class LoadingScreen : ObjectiveC.NSObject {
     @objc override dynamic public init()
     @objc public var showLogo: Swift.Bool {

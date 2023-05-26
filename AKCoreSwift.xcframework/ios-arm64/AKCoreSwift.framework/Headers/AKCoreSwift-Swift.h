@@ -334,6 +334,7 @@ SWIFT_CLASS("_TtC11AKCoreSwift19AKCoreCustomization")
 @property (nonatomic, strong) UIColor * _Nonnull activityViewColor;
 @property (nonatomic, strong) UIFont * _Nullable customFont;
 @property (nonatomic, strong) LoadingScreen * _Nonnull loadingScreenCustomization;
+@property (nonatomic, strong) NSBundle * _Nullable bundleForLocalizableString;
 @end
 
 

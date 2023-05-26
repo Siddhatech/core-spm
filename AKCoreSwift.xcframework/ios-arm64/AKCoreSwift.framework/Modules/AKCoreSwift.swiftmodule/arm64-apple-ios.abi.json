@@ -8782,6 +8782,118 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "bundleForLocalizableString",
+            "printedName": "bundleForLocalizableString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AKCoreSwift@objc(cs)AKCoreCustomization(py)bundleForLocalizableString",
+            "mangledName": "$s11AKCoreSwift0A13CustomizationC26bundleForLocalizableStringSo8NSBundleCSgvp",
+            "moduleName": "AKCoreSwift",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Bundle?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bundle",
+                        "printedName": "Foundation.Bundle",
+                        "usr": "c:objc(cs)NSBundle"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKCoreSwift@objc(cs)AKCoreCustomization(im)bundleForLocalizableString",
+                "mangledName": "$s11AKCoreSwift0A13CustomizationC26bundleForLocalizableStringSo8NSBundleCSgvg",
+                "moduleName": "AKCoreSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Bundle?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bundle",
+                        "printedName": "Foundation.Bundle",
+                        "usr": "c:objc(cs)NSBundle"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKCoreSwift@objc(cs)AKCoreCustomization(im)setBundleForLocalizableString:",
+                "mangledName": "$s11AKCoreSwift0A13CustomizationC26bundleForLocalizableStringSo8NSBundleCSgvs",
+                "moduleName": "AKCoreSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AKCoreSwift0A13CustomizationC26bundleForLocalizableStringSo8NSBundleCSgvM",
+                "mangledName": "$s11AKCoreSwift0A13CustomizationC26bundleForLocalizableStringSo8NSBundleCSgvM",
+                "moduleName": "AKCoreSwift",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "TypeDecl",
             "name": "LoadingScreen",
             "printedName": "LoadingScreen",
@@ -15457,35 +15569,35 @@
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Custom\/AKCoreCustomization.swift",
       "kind": "BooleanLiteral",
-      "offset": 2733,
+      "offset": 3017,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Custom\/AKCoreCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 2998,
+      "offset": 3282,
       "length": 26,
       "value": "\"ak_core_autentikar_light\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Custom\/AKCoreCustomization.swift",
       "kind": "BooleanLiteral",
-      "offset": 3318,
+      "offset": 3602,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Custom\/AKCoreCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 3922,
+      "offset": 4206,
       "length": 9,
       "value": "\"#1A273B\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Custom\/AKCoreCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 4497,
+      "offset": 4781,
       "length": 9,
       "value": "\"#FE5000\""
     },
@@ -15639,7 +15751,14 @@
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Extensions\/String+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 305,
+      "offset": 367,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Extensions\/String+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 472,
       "length": 2,
       "value": "\"\""
     },
