@@ -1546,6 +1546,46 @@
           },
           {
             "kind": "Function",
+            "name": "inExternalApp",
+            "printedName": "inExternalApp(nextToken:authToken:stage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InitFlow",
+                "printedName": "AKCoreSwift.InitFlow",
+                "usr": "c:@M@AKCoreSwift@objc(cs)InitFlow"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CoreStage",
+                "printedName": "AKCoreSwift.CoreStage",
+                "hasDefaultArg": true,
+                "usr": "s:11AKCoreSwift9CoreStageO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11AKCoreSwift5StartC13inExternalApp9nextToken04authH05stageAA8InitFlowCSS_SSAA9CoreStageOtF",
+            "mangledName": "$s11AKCoreSwift5StartC13inExternalApp9nextToken04authH05stageAA8InitFlowCSS_SSAA9CoreStageOtF",
+            "moduleName": "AKCoreSwift",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "inNextStep",
             "printedName": "inNextStep(nextStepToken:stage:)",
             "children": [
@@ -13442,20 +13482,20 @@
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/CoreStage.swift",
       "kind": "StringLiteral",
       "offset": 810,
-      "length": 34,
-      "value": "\"https:\/\/apiv3.dev.autentikar.com\""
+      "length": 32,
+      "value": "\"https:\/\/api.dev.autentikar.com\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/CoreStage.swift",
       "kind": "StringLiteral",
-      "offset": 882,
+      "offset": 880,
       "length": 31,
       "value": "\"https:\/\/api.qa.autentikar.com\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Data\/Types\/CoreStage.swift",
       "kind": "StringLiteral",
-      "offset": 953,
+      "offset": 951,
       "length": 28,
       "value": "\"https:\/\/api.autentikar.com\""
     },
@@ -14917,36 +14957,78 @@
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/DynamicFlowPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 3141,
+      "length": 16,
+      "value": "\"UIStartingAuth\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/DynamicFlowPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3203,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/DynamicFlowPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3240,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/DynamicFlowPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3495,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/DynamicFlowPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3781,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/DynamicFlowPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 4007,
+      "length": 11,
+      "value": "\"UIEndAuth\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/DynamicFlowPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 3963,
+      "offset": 5395,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/DynamicFlowPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 5423,
+      "offset": 6855,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/DynamicFlowPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 7085,
+      "offset": 8517,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/DynamicFlowPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 7959,
+      "offset": 9391,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/DynamicFlowPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 8675,
+      "offset": 10107,
       "length": 2,
       "value": "\"\""
     },
@@ -15968,35 +16050,56 @@
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Extensions\/URLSession+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 1686,
+      "offset": 1765,
       "length": 3,
       "value": "401"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Extensions\/URLSession+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 1692,
+      "offset": 1771,
       "length": 3,
       "value": "403"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Extensions\/URLSession+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 1770,
+      "offset": 1857,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Extensions\/URLSession+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 2801,
+      "offset": 2163,
+      "length": 3,
+      "value": "401"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Extensions\/URLSession+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2169,
+      "length": 3,
+      "value": "403"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Extensions\/URLSession+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2175,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Extensions\/URLSession+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3227,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Core\/Extensions\/URLSession+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 3546,
+      "offset": 3972,
       "length": 3,
       "value": "500"
     },
@@ -16192,203 +16295,203 @@
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4012,
+      "offset": 4090,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4984,
+      "offset": 5080,
       "length": 4,
       "value": "\"OK\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5379,
+      "offset": 5475,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5427,
+      "offset": 5523,
       "length": 19,
       "value": "\"UIEndVerification\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5769,
+      "offset": 5865,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5957,
+      "offset": 6053,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6107,
+      "offset": 6203,
       "length": 19,
       "value": "\"UIEndVerification\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6467,
+      "offset": 6563,
       "length": 19,
       "value": "\"UIEndVerification\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 7058,
+      "offset": 7154,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7643,
+      "offset": 7739,
       "length": 59,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7646,
+      "offset": 7742,
       "length": 18,
       "value": "\"UIProcessingData\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7675,
+      "offset": 7771,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7678,
+      "offset": 7774,
       "length": 12,
       "value": "\"UINextFLow\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7701,
+      "offset": 7797,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8044,
+      "offset": 8140,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8184,
+      "offset": 8280,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8311,
+      "offset": 8407,
       "length": 57,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8314,
+      "offset": 8410,
       "length": 18,
       "value": "\"UIProcessingData\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8343,
+      "offset": 8439,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8346,
+      "offset": 8442,
       "length": 10,
       "value": "\"UIResult\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8367,
+      "offset": 8463,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8444,
+      "offset": 8540,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8992,
+      "offset": 9088,
       "length": 57,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8995,
+      "offset": 9091,
       "length": 18,
       "value": "\"UIProcessingData\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9024,
+      "offset": 9120,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9027,
+      "offset": 9123,
       "length": 10,
       "value": "\"UIResult\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9048,
+      "offset": 9144,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9105,
+      "offset": 9201,
       "length": 4,
       "value": "\"{}\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/UI\/Module\/DynamicFlow\/AKDynamicFlowViewController.swift",
       "kind": "Array",
-      "offset": 9242,
+      "offset": 9338,
       "length": 2,
       "value": "[]"
     },
@@ -16989,15 +17092,15 @@
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Init\/AKCore.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2407,
-      "length": 4,
-      "value": "true"
+      "kind": "StringLiteral",
+      "offset": 2772,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AKCoreSwift\/AKCoreSwift\/Init\/AKCore.swift",
       "kind": "BooleanLiteral",
-      "offset": 3111,
+      "offset": 2989,
       "length": 4,
       "value": "true"
     },

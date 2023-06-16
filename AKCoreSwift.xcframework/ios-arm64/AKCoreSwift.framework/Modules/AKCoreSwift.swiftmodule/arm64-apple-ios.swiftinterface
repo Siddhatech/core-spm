@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AKCoreSwift
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CommonCrypto
@@ -42,6 +42,7 @@ public enum AKResultTypeModel {
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class Start : ObjectiveC.NSObject {
   public func inFlowID(flowId: Swift.String, user: AKCoreSwift.User? = nil, stage: AKCoreSwift.CoreStage = .prod, customFields: [Swift.String : Any]? = [:], files: [Swift.String : Swift.String]? = [:], responseType: AKCoreSwift.ResponseType = .result) -> AKCoreSwift.InitFlow
+  public func inExternalApp(nextToken: Swift.String, authToken: Swift.String, stage: AKCoreSwift.CoreStage = .prod) -> AKCoreSwift.InitFlow
   public func inNextStep(nextStepToken: Swift.String, stage: AKCoreSwift.CoreStage = .prod) -> AKCoreSwift.InitFlow
   public func inExternalLink(token: Swift.String, stage: AKCoreSwift.CoreStage = .prod) -> AKCoreSwift.InitFlow
   @objc deinit
