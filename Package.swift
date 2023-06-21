@@ -11,13 +11,24 @@ let package = Package(
     products: [
         .library(
             name: "AKCoreSwift",
-            targets: ["AKCoreSwift"]),
+            targets: ["AKCoreSwiftWrapper"]),
     ],
-    dependencies: [],
+    dependencies: [
+        .package(url: "https://github.com/airsidemobile/JOSESwift", from: "2.4.0")
+    ],
     targets: [
+        
+        .target(
+            name: "AKCoreSwiftWrapper",
+            dependencies: [
+            "JOSESwift",
+            .target(name: "AKCoreSwift")
+            ],
+            path: "AKCoreSwiftWrapper"
+        ),
+        
         .binaryTarget(
             name: "AKCoreSwift",
-            path: "AKCoreSwift.xcframework"
-        )
-    ]
+            path: "AKCoreSwift.xcframework"),
+        ]
 )

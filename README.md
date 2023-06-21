@@ -1,9 +1,7 @@
 # AKCoreSwift *by Autentikar*
 
-## version 4.1.7 :rocket:
-
-# Added
-* Add in_externa_app method for init flow.
+## version 4.1.8 :rocket:
 
 # Updated
+* Various stability improvement fixes.
 * Security improvements.
