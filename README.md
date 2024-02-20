@@ -1,6 +1,6 @@
 # AKCoreSwift *by Autentikar*
 
-## version 4.2.2 :rocket:
+## version 4.2.3-beta :rocket:
 
 # New features
 * Maximum retries alert.
