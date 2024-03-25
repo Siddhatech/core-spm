@@ -1,3 +1,3 @@
 # AKCoreSwift *by Autentikar*
 
-## version 4.3.0-beta :rocket:
+## version 4.3.1-beta :rocket:

@@ -1,0 +1,4 @@
+framework module AKCoreSwift {
+  header "AKCoreSwift-Swift.h"
+  requires objc
+}
