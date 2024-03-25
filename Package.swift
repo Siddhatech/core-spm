@@ -6,27 +6,14 @@ import PackageDescription
 let package = Package(
     name: "AKCoreSwift",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v13)
     ],
     products: [
         .library(
             name: "AKCoreSwift",
-            targets: ["AKCoreSwiftWrapper"]),
-    ],
-    dependencies: [
-        .package(url: "https://github.com/airsidemobile/JOSESwift", from: "2.4.0")
+            targets: ["AKCoreSwift"]),
     ],
     targets: [
-        
-        .target(
-            name: "AKCoreSwiftWrapper",
-            dependencies: [
-            "JOSESwift",
-            .target(name: "AKCoreSwift")
-            ],
-            path: "AKCoreSwiftWrapper"
-        ),
-        
         .binaryTarget(
             name: "AKCoreSwift",
             path: "AKCoreSwift.xcframework"),
