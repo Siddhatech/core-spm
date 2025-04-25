@@ -17,5 +17,6 @@ let package = Package(
         .binaryTarget(
             name: "AKCoreSwift",
             path: "AKCoreSwift.xcframework"),
+            condition: .when(platforms: [.iOS]) 
         ]
 )
